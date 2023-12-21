@@ -1,0 +1,26 @@
+{
+  "name": "@sanchitb23/prettier-config",
+  "version": "1.0.0",
+  "description": "SanchitB23's base prettier configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanchitB23/prettier-config"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "sanchitb23"
+  ],
+  "author": {
+    "name": "Sanchit Bhatnagar",
+    "url": "https://sanchitb23.in/",
+    "email": "dev.sanchitb23@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/SanchitB23/prettier-config/issues"
+  },
+  "dependencies": {
+    "prettier": "^3.1.1"
+  }
+}
