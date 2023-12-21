@@ -1,6 +1,6 @@
 {
   "name": "@sanchitb23/prettier-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "SanchitB23's base prettier configuration",
   "main": "index.js",
   "repository": {
