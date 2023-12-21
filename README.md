@@ -1,12 +1,13 @@
-# Upstatement Prettier Config
+# SanchitB23 Prettier Config
 
-[![npm version](https://badge.fury.io/js/%40upstatement%2Fprettier-config.svg)](https://badge.fury.io/js/%40upstatement%2Fprettier-config)
+[//]: # ([![npm version]&#40;https://badge.fury.io/js/%40SanchitB23%2Fprettier-config.svg&#41;]&#40;https://badge.fury.io/js/%40SanchitB23%2Fprettier-config&#41;)
 
-Pairs well with our [ESLint config](https://www.npmjs.com/package/@upstatement/eslint-config).
+[//]: # ()
+[//]: # (Pairs well with our [ESLint config]&#40;https://www.npmjs.com/package/@SanchitB23/eslint-config&#41;.)
 
 ## Table of Contents
 
-- [Upstatement Prettier Config](#upstatement-prettier-config)
+- [SanchitB23 Prettier Config](#SanchitB23-prettier-config)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Configurations](#configurations)
@@ -22,22 +23,22 @@ Pairs well with our [ESLint config](https://www.npmjs.com/package/@upstatement/e
 
 ## Installation
 
-1. Make sure your project is using a Node version >= `10`
+1. Make sure your project is using a Node version >= `20`
 
 2. Install dependencies
 
     ```sh
-    npm install --save-dev @upstatement/prettier-config prettier@2.x.x
+    npm install --save-dev @SanchitB23/prettier-config prettier@3.x.x
 
     # or
 
-    yarn add --dev @upstatement/prettier-config prettier@2.x.x
+    yarn add --dev @SanchitB23/prettier-config prettier@3.x.x
     ```
 
 3. Create a `prettier.config.js` file at the root of your project with the following:
 
     ```js
-    module.exports = require('@upstatement/prettier-config');
+    module.exports = require('@SanchitB23/prettier-config');
     ```
 
 ## Configurations
@@ -45,24 +46,13 @@ Pairs well with our [ESLint config](https://www.npmjs.com/package/@upstatement/e
 We export two ESLint configurations for your usage:
 
 1. [Default (2 space)](#default-config)
-2. [Four Spaces](#four-spaces-config)
 
 ### Default Config
 
 In your `prettier.config.js`:
 
 ```js
-module.exports = require('@upstatement/prettier-config');
-```
-
-### Four Spaces Config
-
-Includes everything in the default config, but replaces the `tabWidth` rule with 4 spaces instead of 2 spaces.
-
-In your `prettier.config.js`:
-
-```js
-module.exports = require('@upstatement/prettier-config/four-spaces');
+module.exports = require('@SanchitB23/prettier-config');
 ```
 
 ## [Editor Integration](https://prettier.io/docs/en/editors.html) & Autoformatting
@@ -106,7 +96,7 @@ module.exports = require('@upstatement/prettier-config/four-spaces');
 
 As another line of defense, if you want Prettier to automatically fix your errors on commit, you can use [lint-staged](https://github.com/okonet/lint-staged) with [husky](https://github.com/typicode/husky).
 
-1. Make sure your `npm` version is >= 7.0.0
+1. Make sure your `npm` version is >= 10.0.0
 
    ```shell
    npm install -g npm@latest
@@ -143,7 +133,7 @@ As another line of defense, if you want Prettier to automatically fix your error
     }
    ```
 
-   If you already have `lint-staged` running [ESLint](https://github.com/Upstatement/eslint-config#pre-commit-hook), just add the prettier step on top of it:
+   If you already have `lint-staged` running [ESLint](https://github.com/SanchitB23/eslint-config#pre-commit-hook), just add the prettier step on top of it:
 
    ```json
    "lint-staged": {
