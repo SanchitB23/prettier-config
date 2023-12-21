@@ -3,7 +3,7 @@
 [//]: # ([![npm version]&#40;https://badge.fury.io/js/%40SanchitB23%2Fprettier-config.svg&#41;]&#40;https://badge.fury.io/js/%40SanchitB23%2Fprettier-config&#41;)
 
 [//]: # ()
-[//]: # (Pairs well with our [ESLint config]&#40;https://www.npmjs.com/package/@SanchitB23/eslint-config&#41;.)
+[//]: # (Pairs well with our [ESLint config]&#40;https://www.npmjs.com/package/@sanchitb23/eslint-config&#41;.)
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@
   - [Installation](#installation)
   - [Configurations](#configurations)
     - [Default Config](#default-config)
-    - [Four Spaces Config](#four-spaces-config)
   - [Editor Integration & Autoformatting](#editor-integration--autoformatting)
     - [VS Code](#vs-code)
     - [Sublime Text 3](#sublime-text-3)
@@ -28,17 +27,17 @@
 2. Install dependencies
 
     ```sh
-    npm install --save-dev @SanchitB23/prettier-config prettier@3.x.x
+    npm install --save-dev @sanchitb23/prettier-config prettier@3.x.x
 
     # or
 
-    yarn add --dev @SanchitB23/prettier-config prettier@3.x.x
+    yarn add --dev @sanchitb23/prettier-config prettier@3.x.x
     ```
 
 3. Create a `prettier.config.js` file at the root of your project with the following:
 
     ```js
-    module.exports = require('@SanchitB23/prettier-config');
+    module.exports = require('@sanchitb23/prettier-config');
     ```
 
 ## Configurations
@@ -52,7 +51,7 @@ We export two ESLint configurations for your usage:
 In your `prettier.config.js`:
 
 ```js
-module.exports = require('@SanchitB23/prettier-config');
+module.exports = require('@sanchitb23/prettier-config');
 ```
 
 ## [Editor Integration](https://prettier.io/docs/en/editors.html) & Autoformatting
